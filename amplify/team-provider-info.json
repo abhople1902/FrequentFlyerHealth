@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flyfit-staging-151652-authRole",
+      "UnauthRoleArn": "arn:aws:iam::240028061007:role/amplify-flyfit-staging-151652-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::240028061007:role/amplify-flyfit-staging-151652-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-flyfit-staging-151652-deployment",
+      "UnauthRoleName": "amplify-flyfit-staging-151652-unauthRole",
+      "StackName": "amplify-flyfit-staging-151652",
+      "StackId": "arn:aws:cloudformation:us-east-1:240028061007:stack/amplify-flyfit-staging-151652/9c2bcfa0-3147-11ee-bc83-0aa4d6473ff7",
+      "AmplifyAppId": "d1q52or5fow60x"
+    }
+  }
+}
