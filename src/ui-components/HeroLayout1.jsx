@@ -32,7 +32,7 @@ export default function HeroLayout1(props) {
     },
     {
       overrides: {
-        Eyebrow: { color: "rgba(188,236,245,1)", children: "Full-stack" },
+        Eyebrow: { color: "rgba(188,236,245,1)" },
         Heading: { color: "rgba(255,255,255,1)" },
         Body: { color: "rgba(255,255,255,1)" },
         Message: {},
@@ -127,7 +127,7 @@ export default function HeroLayout1(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Full stack"
+              children="Flight, health and convenience"
               {...getOverrideProps(overrides, "Eyebrow")}
             ></Text>
             <Text
@@ -149,7 +149,7 @@ export default function HeroLayout1(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Build full-stack web and mobile apps in hours. Easy to start, easy to scale"
+              children="Calculate your &#x2028;FrequentFlyerHealthIndex&#x2028;on fly"
               {...getOverrideProps(overrides, "Heading")}
             ></Text>
             <Text

@@ -117,8 +117,8 @@ export default function NavBarHeader2(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Products"
-          {...getOverrideProps(overrides, "Products")}
+          children="Parameters"
+          {...getOverrideProps(overrides, "Parameters")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -138,8 +138,8 @@ export default function NavBarHeader2(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Pricing"
-          {...getOverrideProps(overrides, "Pricing")}
+          children="How it works"
+          {...getOverrideProps(overrides, "How it works")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -159,8 +159,8 @@ export default function NavBarHeader2(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Contact"
-          {...getOverrideProps(overrides, "Contact")}
+          children="About the creator"
+          {...getOverrideProps(overrides, "About the creator")}
         ></Text>
       </Flex>
       <Flex

@@ -14,9 +14,9 @@ export declare type NavBarHeader2OverridesProps = {
     "Amplify Mark"?: PrimitiveOverrideProps<ViewProps>;
     Union?: PrimitiveOverrideProps<IconProps>;
     Home?: PrimitiveOverrideProps<TextProps>;
-    Products?: PrimitiveOverrideProps<TextProps>;
-    Pricing?: PrimitiveOverrideProps<TextProps>;
-    Contact?: PrimitiveOverrideProps<TextProps>;
+    Parameters?: PrimitiveOverrideProps<TextProps>;
+    "How it works"?: PrimitiveOverrideProps<TextProps>;
+    "About the creator"?: PrimitiveOverrideProps<TextProps>;
     actions?: PrimitiveOverrideProps<FlexProps>;
     Button39493466?: PrimitiveOverrideProps<ButtonProps>;
     Button39493467?: PrimitiveOverrideProps<ButtonProps>;

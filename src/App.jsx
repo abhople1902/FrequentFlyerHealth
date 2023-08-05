@@ -1,6 +1,13 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import {
+  NavBarHeader2,
+  HeroLayout2,
+ } from './ui-components';
+
 import './App.css'
 
 function App() {
@@ -8,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +34,14 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
+      <header>
+        <NavBarHeader2 />
+      </header>
+      <div>
+        <HeroLayout2 />
+      </div>
+
     </>
   )
 }
