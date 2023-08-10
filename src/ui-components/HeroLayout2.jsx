@@ -17,9 +17,8 @@ export default function HeroLayout2(props) {
   const variants = [
     {
       overrides: {
-        "Full stack": {},
-        "Build full-stack web and mobile apps in hours. Easy to start, easy to scale":
-          {},
+        "Flight, health and convenience": {},
+        "Calculate your FrequentFlyerHealthIndex on fly": {},
         "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.":
           {},
         "Main Body": {},
@@ -31,15 +30,17 @@ export default function HeroLayout2(props) {
     },
     {
       overrides: {
-        "Full stack": { color: "rgba(249,184,249,1)" },
-        "Build full-stack web and mobile apps in hours. Easy to start, easy to scale":
-          { color: "rgba(233,249,252,1)" },
+        "Flight, health and convenience": {
+          fontWeight: "700",
+          color: "rgba(255,255,255,1)",
+        },
+        "Calculate your FrequentFlyerHealthIndex on fly": {},
         "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.":
-          { color: "rgba(188,236,245,1)" },
+          {},
         "Main Body": {},
         Button: {},
         "Type Lock Up": {},
-        HeroLayout2: { backgroundColor: "rgba(0,64,77,1)" },
+        HeroLayout2: {},
       },
       variantValues: { colorMode: "dark" },
     },
@@ -59,7 +60,6 @@ export default function HeroLayout2(props) {
       overflow="hidden"
       position="relative"
       padding="160px 240px 160px 240px"
-      backgroundColor="rgba(233,249,252,1)"
       display="flex"
       {...getOverrideProps(overrides, "HeroLayout2")}
       {...rest}
@@ -83,10 +83,10 @@ export default function HeroLayout2(props) {
         <Text
           fontFamily="Inter"
           fontSize="16px"
-          fontWeight="700"
-          color="rgba(4,125,149,1)"
+          fontWeight="900"
+          color="rgba(233,249,252,1)"
           lineHeight="24px"
-          textAlign="center"
+          textAlign="left"
           display="block"
           direction="column"
           justifyContent="unset"
@@ -99,8 +99,8 @@ export default function HeroLayout2(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Full stack"
-          {...getOverrideProps(overrides, "Full stack")}
+          children="Flight, health and convenience"
+          {...getOverrideProps(overrides, "Flight, health and convenience")}
         ></Text>
         <Flex
           gap="16px"
@@ -120,9 +120,9 @@ export default function HeroLayout2(props) {
             fontFamily="Inter"
             fontSize="24px"
             fontWeight="600"
-            color="rgba(13,26,38,1)"
+            color="rgba(255,255,255,1)"
             lineHeight="30px"
-            textAlign="center"
+            textAlign="left"
             display="block"
             direction="column"
             justifyContent="unset"
@@ -135,19 +135,19 @@ export default function HeroLayout2(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Build full-stack web and mobile apps in hours. Easy to start, easy to scale"
+            children="Calculate your &#xA;FrequentFlyerHealthIndex &#xA;on fly"
             {...getOverrideProps(
               overrides,
-              "Build full-stack web and mobile apps in hours. Easy to start, easy to scale"
+              "Calculate your FrequentFlyerHealthIndex on fly"
             )}
           ></Text>
           <Text
             fontFamily="Inter"
             fontSize="16px"
             fontWeight="400"
-            color="rgba(48,64,80,1)"
+            color="rgba(255,255,255,1)"
             lineHeight="24px"
-            textAlign="center"
+            textAlign="left"
             display="block"
             direction="column"
             justifyContent="unset"

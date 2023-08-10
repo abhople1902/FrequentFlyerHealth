@@ -11,9 +11,9 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type HeroLayout2OverridesProps = {
     HeroLayout2?: PrimitiveOverrideProps<FlexProps>;
     "Type Lock Up"?: PrimitiveOverrideProps<FlexProps>;
-    "Full stack"?: PrimitiveOverrideProps<TextProps>;
+    "Flight, health and convenience"?: PrimitiveOverrideProps<TextProps>;
     "Main Body"?: PrimitiveOverrideProps<FlexProps>;
-    "Build full-stack web and mobile apps in hours. Easy to start, easy to scale"?: PrimitiveOverrideProps<TextProps>;
+    "Calculate your FrequentFlyerHealthIndex on fly"?: PrimitiveOverrideProps<TextProps>;
     "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed."?: PrimitiveOverrideProps<TextProps>;
     Button?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
